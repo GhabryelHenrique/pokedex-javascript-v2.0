@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script defer src="./js/script.js"></script>
+    <title>PokedexApi</title>
+  </head>
+  <body>
+    <main>
+      <img class="pokemonImage" />
+
+      <img class="pokedex" src="./img/pokedex.png" />
+
+      <h1 class="pokemonContent">
+        <span class="pokemonNumber"></span> - <span class="pokemonName"></span>
+      </h1>
+      <form class="searchPokemon">
+        <input
+          type="search"
+          class="inputSearch"
+          placeholder="Name or Number"
+          required
+        />
+      </form>
+
+      <div class="btnGroup">
+        <button class="btn btn-prev">Prev &lt;</button>
+        <button class="btn btn-next">Next &gt;</button>
+      </div>
+
+    </main>
+  </body>
+</html>
